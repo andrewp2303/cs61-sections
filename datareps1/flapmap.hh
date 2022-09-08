@@ -11,3 +11,5 @@ struct sample {
 
 std::map<uintptr_t, sample> flapmap;
 using flapmap_iter = std::map<uintptr_t, sample>::iterator;
+
+void add_sample(uintptr_t start, size_t duration, size_t flapsize);
